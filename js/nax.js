@@ -34,7 +34,7 @@ navItems.appendChild(menu);
 
 nav_icon.map((item) => {
     const list = md("li")
-    console.log(item)
+
     list.innerHTML = `${item === "Sing In" ? `<button class="btn px-5 btn-info rounded-full text-white"> ${item} </button>` : `<button class="btn btn-circle"> ${item} </button>`}`
     menu.appendChild(list)
 })
