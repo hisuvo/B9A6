@@ -12,7 +12,7 @@ const bannerForm = [
 
 
 const banner = $("banner_form");
-console.log(banner)
+
 bannerForm.map((item) => {
     const list = md("p");
     list.classList = "text-xl"
