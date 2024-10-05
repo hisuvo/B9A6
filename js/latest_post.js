@@ -5,18 +5,6 @@ const latestPost = async () => {
     displaylastPost(data)
 }
 
-const x = {
-    "cover_image": "https://i.ibb.co/hC2CtK2/pexels-monstera-production-7412067.jpg",
-    "profile_image": "https://i.ibb.co/0QRxkd5/pexels-jan-kop-iva-3525908.jpg",
-    "title": "Discoverer of Global Treasures",
-    "description": " Passionate travel enthusiast sharing captivating destinations and insider tips to inspire unforgettable journeys.",
-    "author": {
-        "name": "Anthony Mark",
-        "posted_date": "29 January 2024"
-    }
-}
-
-
 const displaylastPost = (data) => {
     const latestCard = $("latest_card");
     data.map((item) => {
